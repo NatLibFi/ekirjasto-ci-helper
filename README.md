@@ -1,1 +1,1 @@
-# secret-helper
+# ekirjasto-ci-helper
