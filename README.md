@@ -4,8 +4,8 @@
 E-kirjasto's CI workflows (GitHub Actions).
 
 Prerequisites:
-- Node 22+
-- Yarn
+- Node 22+ (installing using [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) highly recommended)
+- [Yarn](https://yarnpkg.com/getting-started/install)
 
 The repository uses Yarn's "zero-installs" pattern,
 so you should be able to run the app directly after cloning.
