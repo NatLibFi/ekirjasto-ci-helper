@@ -1,4 +1,3 @@
-//import path from 'path'
 import { Octokit } from "@octokit/rest";
 import _sodium from "libsodium-wrappers";
 import 'zx/globals'
@@ -102,7 +101,25 @@ export async function runSetSecretFile(argv) {
   await init(argv)
 
   const contents = fs.readFileSync(argv.secretFilepath, {encoding: "base64"})
-  console.log("contents:", contents)
+  console.log("base64:", contents)
+
+  await setSecret(argv.secretName, contents)
+
+  console.log("\nDone!\n")
+}
+
+
+/**
+ * Run "set-secret-file-raw" command.
+ * @param {*} argv Arguments from the command line (yargs).
+ */
+export async function runSetSecretFileRaw(argv) {
+  console.log("runSetSecretFileRaw()")
+  //console.log("argv:", argv)
+  await init(argv)
+
+  const contents = fs.readFileSync(argv.secretFilepath, {encoding: "utf-8"})
+  console.log("raw:", contents)
 
   await setSecret(argv.secretName, contents)
 

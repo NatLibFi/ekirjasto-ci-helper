@@ -63,9 +63,14 @@ export async function main() {
       helper.runSetSecret
     )
     .command("set-secret-file <secret-name> <secret-filepath>",
-      "Set a repository secret from a file",
+      "Set a repository secret from a file (will be base64 encoded)",
       () => {},
       helper.runSetSecretFile
+    )
+    .command("set-secret-file-raw <secret-name> <secret-filepath>",
+      "Set a repository secret from a file (raw content, not base64 encoded)",
+      () => {},
+      helper.runSetSecretFileRaw
     )
     .command("delete-secret <secret-name>",
       "Delete a repository secret",
