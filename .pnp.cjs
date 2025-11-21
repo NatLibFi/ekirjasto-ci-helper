@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:2f643656f27da1d2fad2c6b217da528cc2cf7d8bc1d268e25a48c2e8e4db543e0bbb941bc48f27166d8ffec5197cb20d38a523f81c77e3f4c3fd8f82b946eff4#npm:29.7.0"],\
           ["libsodium-wrappers", "npm:0.7.13"],\
           ["yargs", "npm:17.7.2"],\
-          ["zx", "npm:8.0.2"]\
+          ["zx", "npm:8.8.5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1661,17 +1661,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@types/fs-extra", [\
-      ["npm:11.0.4", {\
-        "packageLocation": "./.yarn/cache/@types-fs-extra-npm-11.0.4-e30a7fec50-9e34f9b24e.zip/node_modules/@types/fs-extra/",\
-        "packageDependencies": [\
-          ["@types/fs-extra", "npm:11.0.4"],\
-          ["@types/jsonfile", "npm:6.1.4"],\
-          ["@types/node", "npm:20.12.7"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@types/graceful-fs", [\
       ["npm:4.1.9", {\
         "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.9-ebd697fe83-235d2fc697.zip/node_modules/@types/graceful-fs/",\
@@ -1707,16 +1696,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/istanbul-reports", "npm:3.0.4"],\
           ["@types/istanbul-lib-report", "npm:3.0.3"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@types/jsonfile", [\
-      ["npm:6.1.4", {\
-        "packageLocation": "./.yarn/cache/@types-jsonfile-npm-6.1.4-33f021b8d9-b12d068b02.zip/node_modules/@types/jsonfile/",\
-        "packageDependencies": [\
-          ["@types/jsonfile", "npm:6.1.4"],\
-          ["@types/node", "npm:20.12.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2485,7 +2464,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:2f643656f27da1d2fad2c6b217da528cc2cf7d8bc1d268e25a48c2e8e4db543e0bbb941bc48f27166d8ffec5197cb20d38a523f81c77e3f4c3fd8f82b946eff4#npm:29.7.0"],\
           ["libsodium-wrappers", "npm:0.7.13"],\
           ["yargs", "npm:17.7.2"],\
-          ["zx", "npm:8.0.2"]\
+          ["zx", "npm:8.8.5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5385,12 +5364,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["zx", [\
-      ["npm:8.0.2", {\
-        "packageLocation": "./.yarn/cache/zx-npm-8.0.2-e5345e1060-fd1dd3c7b6.zip/node_modules/zx/",\
+      ["npm:8.8.5", {\
+        "packageLocation": "./.yarn/cache/zx-npm-8.8.5-7705a94826-1273e4f72c.zip/node_modules/zx/",\
         "packageDependencies": [\
-          ["zx", "npm:8.0.2"],\
-          ["@types/fs-extra", "npm:11.0.4"],\
-          ["@types/node", "npm:20.12.7"]\
+          ["zx", "npm:8.8.5"]\
         ],\
         "linkType": "HARD"\
       }]\
